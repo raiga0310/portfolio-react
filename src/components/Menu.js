@@ -1,13 +1,16 @@
 import React from "react";
-import Card from "./Card";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Works from "../pages/Works";
 import "./Menu.css"
+
 
 function Menu() {
     return (
         <div className={"Menu"}>
-            <Card name={"About"}/>
-            <Card name={"Contact"}/>
-            <Card name={"Works"}/>
+            <About/>
+            <Contact />
+            <Works />
         </div>
     );
 }

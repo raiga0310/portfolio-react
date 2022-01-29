@@ -51,6 +51,8 @@
   "devDependencies": {
     "concurrently": "^7.0.0",
     "esbuild": "^0.12.14",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
   }
 }
